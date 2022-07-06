@@ -159,7 +159,10 @@ const error404 = {
     }
 }
 
+// En CommonJS
+// module.exports = {error400, error404};
 
+//ES6 Modules
 export { error400, error404 };
 ```
 

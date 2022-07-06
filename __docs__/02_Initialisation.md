@@ -11,14 +11,14 @@ Dans notre initialisation nous allons importer 2 modules npm :
 npm install swagger-ui-express
 npm install swagger-jsdoc
 
-# Et pour ceux et celle qui aiment vivre dangereusement
+# Et pour ceux et celles qui aiment vivre dangereusement
 # npm i swagger-ui-express swagger-jsdoc
 ```
 
 ## SwaggerDocs.js
 
-Une fois les modules installés nous allons crée un fichier `swaggerDocs.js` dans notre dossier `swaggerDocs`.
-C'est dans se fichier que la magie opère !
+Une fois les modules installés nous allons créer un fichier `swaggerDocs.js` dans notre dossier `swaggerDocs`.
+C'est dans ce fichier que la magie opère !
 
 Nos importations se font commme ceci :
 

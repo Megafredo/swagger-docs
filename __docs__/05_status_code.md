@@ -9,6 +9,7 @@
 | 401 | Unauthorized | Indique que la requête n'a pas été effectuée, car il manque des informations d'authentification valides pour la ressource visée |
 | 403 | Forbidden | Indique qu'un serveur comprend la requête mais refuse de l'autoriser |
 | 404 | Not found | Indique qu'un serveur ne peut pas trouver la ressource demandée |
+|[418](https://developer.mozilla.org/fr/docs/Web/HTTP/Status/418)|Surprise| Coup de coeur de l'équipe sur ce status code|
 | 500 | Internal Server Error | Indique que le serveur a rencontré un problème inattendu qui l'empêche de répondre à la requête |
 
 

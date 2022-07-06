@@ -2,7 +2,7 @@
 
 ## swaggerDocs.js - les options
 
-Grace au module npm swagger-jsdoc nous pouvons configurer facilement notre page /api-docs (lien déterminé dans notre index)
+Grâce au module npm swagger-jsdoc nous pouvons configurer facilement notre page /api-docs (lien déterminé dans notre index)
 
 
 ### Options de base
@@ -64,7 +64,7 @@ externalDocs: {
 },
 ```
 
-### Tout les serveurs
+### Tous les serveurs
 
 ```js
  servers: [

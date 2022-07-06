@@ -1,10 +1,12 @@
 # Autres Exemples de Js Docs
 
 Voici quelques exemples basic, si vous êtes plus à l'aise avec ce genre d'écriture !
+
 Exemple de JS Docs :
 
+## Exemple 1 JsDoc
+
 ```js
-// Exemple 1 JsDoc
 /**
  * GET /
  * @summary Home
@@ -24,22 +26,12 @@ Exemple de JS Docs :
  * @return {string} 500 - Description Global
  * 
  */
-router.get('/home', fetchAllArticles);
+router.get('/home');
 ```
 
-```js
-//~ Exemple Property JsDoc
-/**
- * @typedef {*}Articles
- * @property {string} category
- * @property {string} slug
- * @property {string} title
- * @property {string} excerpt
- * @property {string} content
- * @property {integer} category_id
- */
+## Exemple 2 JsDoc
 
-//~ Exemple 2 JsDoc
+```js
 /**
  * GET /api/v1/posts
  * @summary Tous les articles
@@ -65,8 +57,26 @@ router.get('/home', fetchAllArticles);
 router.get('/api/v1/posts', fetchAllArticles);
 ```
 
+
+## Exemple Property JsDoc
+
 ```js
-// Exemple SwaggerDocs (écriture accessible avec npm swagger-jsdoc)
+// Mise en place des propriétés (par exemple dans les controllers)
+/**
+ * @typedef {*}Articles
+ * @property {string} category
+ * @property {string} slug
+ * @property {string} title
+ * @property {string} excerpt
+ * @property {string} content
+ * @property {integer} category_id
+ */
+
+```
+
+## Exemple SwaggerDocs (écriture accessible avec npm swagger-jsdoc)
+
+```js
 // On peut utiliser @openapi ou @swagger
 /**
  * @openapi 

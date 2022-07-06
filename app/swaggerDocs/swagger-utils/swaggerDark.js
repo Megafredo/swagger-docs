@@ -1,4 +1,4 @@
-// Personnalisé votre css ici ou importer celui que vous voulez utiliser
+// Personnalisez votre css ici ou importez celui que vous voulez utiliser
 const swaggerDarkCss = `
 a { color: #8c8cfa; }
 
