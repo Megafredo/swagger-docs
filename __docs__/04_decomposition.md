@@ -176,7 +176,10 @@ a { color: #8c8cfa; }
 
 [........]
 `;
+//En CommonJS
+//module.exports = {swaggerDarkCss};
 
+// En ES6 Module
 export { swaggerDarkCss };
 ```
 

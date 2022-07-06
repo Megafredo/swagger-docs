@@ -1,7 +1,3 @@
-const code200 = {
-   
-}
-
 const error400 = {
     description: `Mauvaise requête. L'Id doit être un nombre entier et supérieur à 0`,
     content: {
@@ -29,4 +25,4 @@ const error404 = {
 }
 
 
-export { error400, error404, code200 };
+export { error400, error404 };

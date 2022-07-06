@@ -1,6 +1,5 @@
 //~ ------------------------------ IMPORTATIONS EXAMPLES / STATUS CODES
 import { usersProperties, userExample } from './swagger-utils/swaggerExamples.js';
-
 import { error400, error404 } from './swagger-utils/swaggerStatus.js';
 
 
