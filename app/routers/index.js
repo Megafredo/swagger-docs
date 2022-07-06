@@ -8,7 +8,7 @@ import { fetchAllUsers, fetchOneUser, createUser, updateUser, deleteUser } from 
 
 
 //~ --------------------------------------------- ROUTER INDEX
-router.get('/api/v1', (req, res) => {
+router.get('/', (req, res) => {
     res.json('Welcome to home !');
 });
 

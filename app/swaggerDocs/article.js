@@ -100,7 +100,20 @@ const articleId = {
             }
         ],
         responses: {
-            200: { description: 'Requête réussie' },
+            200: {
+                description: 'Requête réussie',
+                content: {
+                    'application/json': {
+                        schema: {
+                            type: 'object',
+                            properties: { message: { type: 'string' } },
+                            example: {
+                               message : 'La donnée à bien été modifiée'
+                            }
+                        }
+                    }
+                }
+            },
             400: error400,
             404: error404
         }
@@ -123,7 +136,20 @@ const articleId = {
             }
         ],
         responses: {
-            200: { description: 'Requête réussie' },
+            200: {
+                description: 'Requête réussie',
+                content: {
+                    'application/json': {
+                        schema: {
+                            type: 'object',
+                            properties: { message: { type: 'string' } },
+                            example: {
+                                message: 'La donnée à bien été supprimée'
+                            }
+                        }
+                    }
+                }
+            },
             400: error400,
             404: error404
         }

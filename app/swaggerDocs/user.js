@@ -1,10 +1,10 @@
-//~ ------------------------------ EXAMPLES
+//~ ------------------------------ IMPORTATIONS EXAMPLES / STATUS CODES
 import { usersProperties, userExample } from './swagger-utils/swaggerExamples.js';
 
-import {error400, error404} from './swagger-utils/swaggerStatus.js';
+import { error400, error404 } from './swagger-utils/swaggerStatus.js';
+
 
 const users = {
-
     //~ --------------------------------------------- FETCH ALL USERS
     get: {
         tags: ['Users'],
@@ -16,8 +16,8 @@ const users = {
                     'application/json': {
                         schema: {
                             type: 'object',
-                            properties:usersProperties,
-                            example:  userExample
+                            properties: usersProperties,
+                            example: userExample
                         }
                     }
                 }
@@ -26,7 +26,6 @@ const users = {
         }
     },
 
-    
     //~ --------------------------------------------- CREATE USER
     post: {
         tags: ['Users'],
@@ -38,15 +37,15 @@ const users = {
                     'application/json': {
                         schema: {
                             type: 'object',
-                            properties:usersProperties,
-                            example:  userExample
+                            properties: usersProperties,
+                            example: userExample
                         }
                     }
                 }
             },
             400: error400
         }
-    },
+    }
 };
 
 const userId = {
@@ -72,8 +71,8 @@ const userId = {
                     'application/json': {
                         schema: {
                             type: 'object',
-                            properties:usersProperties,
-                            example:  userExample
+                            properties: usersProperties,
+                            example: userExample
                         }
                     }
                 },
@@ -84,7 +83,6 @@ const userId = {
             404: error404
         }
     },
-
 
     //~ ------------------------------------------------------------------- UPDATE USER
     patch: {
@@ -104,7 +102,18 @@ const userId = {
         ],
         responses: {
             200: {
-                description: 'Requête réussie'
+                description: 'Requête réussie',
+                content: {
+                    'application/json': {
+                        schema: {
+                            type: 'object',
+                            properties: { message: { type: 'string' } },
+                            example: {
+                                message: 'La donnée à bien été modifiée'
+                            }
+                        }
+                    }
+                }
             },
             400: error400,
             404: error404
@@ -129,7 +138,18 @@ const userId = {
         ],
         responses: {
             200: {
-                description: 'Requête réussie'
+                description: 'Requête réussie',
+                content: {
+                    'application/json': {
+                        schema: {
+                            type: 'object',
+                            properties: { message: { type: 'string' } },
+                            example: {
+                                message: 'La donnée à bien été supprimée'
+                            }
+                        }
+                    }
+                }
             },
             400: error400,
             404: error404
