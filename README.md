@@ -31,7 +31,7 @@ N'hésitez pas à nous faire un retour afin que l'on puisse procéder aux change
 
 ### Sources diverses :
 
-- [Utilisation de Swagger avec NodeJs REST API](https://www.section.io/engineering-education/documenting-node-js-rest-api-using-swagger/#documenting-api-components)
+- [Swagger with NodeJs REST API](https://www.section.io/engineering-education/documenting-node-js-rest-api-using-swagger/#documenting-api-components)
 - [Editor Swagger](https://editor.swagger.io/)
 - [Specification Media-types](https://swagger.io/docs/specification/media-types/)
 - [CSS Dark mode Swagger](https://github.com/Amoenus/SwaggerDark/)
