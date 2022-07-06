@@ -65,22 +65,3 @@ export {router};
 
 
 
-
-// //~ ---------------------------------------- ALL USERS
-// /**
-//  * @swagger
-//  * tags:
-//  *   name: Test
-//  *   description: Ceci est ma description pour mon tag "Test"
-//  * 
-//  */
-// router.get('/users', (req, res) => [
-//     {
-//         id: 1,
-//         name: 'User1'
-//     },
-//     {
-//         id: 2,
-//         title: 'User2'
-//     }
-// ]);

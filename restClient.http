@@ -4,6 +4,9 @@
 ### GET http://localhost:4100/api/v1
 GET {{entrypoint}}
 
+#* ---------------------------------------
+#* ---------------------------------------
+
 #& -------------------- FETCH ALL ARTICLES
 ### GET /api/v1/articles
 GET {{entrypoint}}/articles
@@ -23,3 +26,26 @@ PATCH {{entrypoint}}/articles/1
 #& -------------------- DELETE ARTICLES
 ### DELETE /api/v1/articles/{:id}
 DELETE {{entrypoint}}/articles/1
+
+#* ---------------------------------------
+#* ---------------------------------------
+
+#& -------------------- FETCH ALL USERS
+### GET /api/v1/users
+GET {{entrypoint}}/users
+
+#& -------------------- FETCH ONE USER
+### GET /api/v1/users/{:id}
+GET {{entrypoint}}/users/2
+
+#& -------------------- CREATE USER
+### POST /api/v1/users/{:id}
+POST {{entrypoint}}/users
+
+#& -------------------- UPDATE USER
+### PATCH /api/v1/users/{:id}
+PATCH {{entrypoint}}/users/1
+
+#& -------------------- DELETE USER
+### DELETE /api/v1/users/{:id}
+DELETE {{entrypoint}}/users/1
