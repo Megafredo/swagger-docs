@@ -1,0 +1,25 @@
+@entrypoint = http://localhost:4100/api/v1
+
+#& -------------------- HOME
+### GET http://localhost:4100/api/v1
+GET {{entrypoint}}
+
+#& -------------------- FETCH ALL ARTICLES
+### GET /api/v1/articles
+GET {{entrypoint}}/articles
+
+#& -------------------- FETCH ONE ARTICLE
+### GET /api/v1/articles/{:id}
+GET {{entrypoint}}/articles/1
+
+#& -------------------- CREATE ARTICLE
+### POST /api/v1/articles/{:id}
+POST {{entrypoint}}/articles
+
+#& -------------------- UPDATE ARTICLE
+### PATCH /api/v1/articles/{:id}
+PATCH {{entrypoint}}/articles/1
+
+#& -------------------- DELETE ARTICLES
+### DELETE /api/v1/articles/{:id}
+DELETE {{entrypoint}}/articles/1
