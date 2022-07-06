@@ -25,6 +25,10 @@ N'hésitez pas à nous faire un retour afin que l'on puisse procéder aux change
 5. [Définition des status codes](__docs__/06_status_code.md)
 6. [Autres Exemples de Js Docs](__docs__/06_Autres_exemples.md)
 
+## Résultat final 🚀
+
+![result](./__docs__/images/result.gif)
+
 ### Sources diverses :
 
 - [Utilisation de Swagger avec NodeJs REST API](https://www.section.io/engineering-education/documenting-node-js-rest-api-using-swagger/#documenting-api-components)
