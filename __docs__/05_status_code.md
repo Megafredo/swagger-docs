@@ -15,7 +15,7 @@
 
 
     //* responses les plus courantes :
-    // '200': description: Requête réussi. / Success response
+    // '200': description: Requête réussie. / Success response
     // '400': description: Mauvaise requête. L'Id de l'user doit être un nombre entier et supérieur à 0. / Bad request. User ID must be an integer and larger than 0.
     // '401': description: Les informations d'autorisation sont manquantes ou invalides. / Authorization information is missing or invalid.
     // '404': description: Page non trouvée / Page not found.

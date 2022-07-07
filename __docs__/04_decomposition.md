@@ -82,7 +82,7 @@ Et le résultat :
 
 ## Components
 
-Dans les options, nous avons également la possibilité d'indiquer un schéma qui définit les types attendu de chaque résultats en sortie :
+Dans les options, nous avons également la possibilité d'indiquer un schéma qui définit les types attendus de chaque résultat en sortie :
 
 ![schema](./images/schema.jpg)
 
@@ -168,7 +168,7 @@ export { error400, error404 };
 
 ## Dark Mode (pour le plaisir des devs !)
 
-Et pour le plaisir des devs, nous avons fait une configuration personnalisée ! (source du lien qui nous a permis de configurer le mode se trouve à l'accueil, le fichier étant important, il a été "raccourci)
+Et pour le plaisir des devs, nous avons fait une configuration personnalisée ! (la source du lien qui nous a permis de configurer le mode se trouve à l'accueil, le fichier étant important, il a été "raccourci")
 
 
 ```js

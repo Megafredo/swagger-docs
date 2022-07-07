@@ -20,9 +20,9 @@ N'hésitez pas à nous faire un retour afin que l'on puisse procéder aux change
 
 1. [Création de l'architecture](__docs__/01_Architecture.md)
 2. [Initialisation de Swagger](__docs__/02_Initialisation.md)
-3. [Mise en place des options](__docs__/04_options.md)
-4. [Décomposition des options](__docs__/05_decomposition.md)
-5. [Définition des status codes](__docs__/06_status_code.md)
+3. [Mise en place des options](__docs__/03_options.md)
+4. [Décomposition des options](__docs__/04_decomposition.md)
+5. [Définition des status codes](__docs__/05_status_code.md)
 6. [Autres Exemples de Js Docs](__docs__/06_Autres_exemples.md)
 
 ## Résultat final 🚀
